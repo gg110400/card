@@ -1,0 +1,108 @@
+body {
+    background-color: whitesmoke;
+    font-family: "Open Sans", sans-serif;
+    height: 80vh;
+  }
+  
+  .container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .card {
+    width: 300px;
+    height: 500px;
+    background-image: url(./6eb30e68-81f5-40a6-b72d-964286ebfebf.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    opacity: 1;
+    position: absolute;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    margin-top: 80px;
+    cursor: pointer;
+  }
+  
+  .card:hover {
+      background-image: url(./b17d66ba-8472-4bea-87bf-78068bff2a24.jpg);
+  }
+  
+  .Save {
+    width: 50px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    border-radius: 50px;
+    position: absolute;
+    top: -50px;
+    right: 10px;
+    opacity: 1;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .Save:hover {
+    background-color: brown;
+  }
+  
+  .card:hover .Save {
+    top: 10px;
+  }
+  
+  .bottom div {
+    width: 50px;
+    background-color: white;
+    border-radius: 50px;
+    padding: 5px;
+    text-align: center;
+    position: absolute;
+    bottom: -35px;
+    transition: 0.2s ease-in;
+  }
+  
+  .card:hover .label-site {
+    bottom: 10px;
+  }
+  
+  .label-site:hover {
+    opacity: 1;
+  }
+  
+  .card:hover .share {
+    bottom: 10px;
+  }
+  
+  .card:hover .dots {
+    bottom: 10px;
+  }
+  
+  .label-site {
+    left: 10px;
+    opacity: 0.7;
+    cursor: pointer;
+  }
+  
+  .share {
+    right: 80px;
+    opacity: 0.7;
+    cursor: pointer;
+  }
+  
+  .share:hover {
+    opacity: 1;
+  }
+  
+  .dots {
+    right: 10px;
+    opacity: 0.7;
+    cursor: pointer;
+  }
+  
+  .dots:hover {
+    opacity: 1;
+  }
+  
