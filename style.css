@@ -23,10 +23,12 @@ body {
   overflow: hidden;
   margin-top: 80px;
   cursor: pointer;
+  transition: 0.4s ease-in;
 }
 
 .card:hover {
-    background-image: url(./1a7af072-caf5-4284-b637-ecae903c59f9.jpg);
+  background-image: url(./1a7af072-caf5-4284-b637-ecae903c59f9.jpg);
+  scale:110%;
 }
 
 .Save {
